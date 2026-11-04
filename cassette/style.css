@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: #7dcb61;
+
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cassette {
+  width: 270px;
+  height: 190px;
+  background: #454545;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.cassette__body {
+  margin-top: 15px;
+  width: 240px;
+  height: 100px;
+  background-color: #d9d9d9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tape__window {
+  width: 150px;
+  height: 50px;
+  background-color: #454545;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.reel {
+  width: 40px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.cassette__bottom {
+  width: 150px;
+  height: 50px;
+  background-color: #727272;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notch {
+  width: 40px;
+  height: 10px;
+  background-color: #454545;
+}
